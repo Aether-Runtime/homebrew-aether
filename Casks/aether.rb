@@ -1,14 +1,14 @@
 cask "aether" do
-  version "0.2.40"
+  version "0.2.41"
 
   on_intel do
     url "https://github.com/Aether-Runtime/homebrew-aether/releases/download/v#{version}/aether_darwin_amd64.tar.gz"
-    sha256 "8b88193632fb41ff76b79078e5a57b048d1284b68bc425921b440d0ec6b550ea"
+    sha256 "c94fb99f923243eecf036ad92239a164055f942041f7317598ef55476d372f37"
   end
 
   on_arm do
     url "https://github.com/Aether-Runtime/homebrew-aether/releases/download/v#{version}/aether_darwin_arm64.tar.gz"
-    sha256 "e1faeb2eabedc8acb421c1c55f980b665e46fe39ddb995f741f55f38b07894bc"
+    sha256 "7820b89d5185cd2fd74bb79f46995e7b2d9baa54e6942e76534143586742ca03"
   end
 
   name "Aether"
